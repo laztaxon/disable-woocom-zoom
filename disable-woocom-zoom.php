@@ -3,7 +3,8 @@
 Plugin Name: Disable WooCommerce Zoom
 Description: Disables the zoom feature on WooCommerce product images.
 Author: Marcelo Rondon
-Version: 1.0
+Author URI: https://cello.design
+Version: 1.1
 */
 
 add_action( 'after_setup_theme', 'remove_pgz_theme_support', 100 );
